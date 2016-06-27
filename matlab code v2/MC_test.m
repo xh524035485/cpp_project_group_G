@@ -1,10 +1,11 @@
 clear
 clc
-S_0 = 10;
-r = 0.1;
-sig = 0.4;
-X = 15;
-T = 1;
+S_0 = 100;
+r = 0.06;
+sig = 0.2;
+X = 100;
+T = 0.5;
+Dc=0;
     
 N = 20;      % number of time steps
 %     double st_time = clock();
